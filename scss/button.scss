@@ -1,0 +1,46 @@
+button {
+  position: relative;
+  background: transparent;
+  color: $light;
+  border: 2px solid $purple;
+  padding: 10px;
+  margin-top: 15px;
+  width: 100px;
+}
+
+button:hover {
+  cursor: pointer;
+  background: $darkpurple;
+  text-transform: uppercase;
+  transition: 0.5s;
+}
+
+button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0%;
+  height: 100%;
+  background: $purple;
+  transition: width 0.5s;
+}
+
+button:hover:before {
+  width: 100%;
+  z-index: -1;
+}
+
+.selected {
+  background: $darkpurple;
+  text-transform: uppercase;
+}
+
+.side-button {
+  max-width: 1000px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}

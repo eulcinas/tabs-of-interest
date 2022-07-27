@@ -1,0 +1,28 @@
+@media (min-width: 768px){
+  .top-button {
+    display: none;
+  }
+
+  .tab {
+    border-top: 0;
+    border-bottom: 0;
+  }
+}
+
+@media (max-width: 768px){
+
+  .side-button {
+    margin: 20px;
+    padding-bottom: 20px;
+  }
+
+  .left-button {
+    display: none;
+  }
+
+  .tab {
+    border-left: 0;
+    border-right: 0;
+
+  }
+}

@@ -1,0 +1,22 @@
+.tab {
+  max-width: 800px;
+  width: 90%;
+  margin: 30px;
+  border: 5px solid $purple;
+}
+
+.tab img {
+  width: 90%;
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+  padding: 10px 0;
+}
+
+.tab p {
+  line-height: 30px;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+  padding: 10px 0;
+}
